@@ -87,6 +87,11 @@ article button {
   background-color: black;
   color: #eee;
   font-size: 100%;
+  transition: background-color 350ms;
+}
+
+button:hover {
+  background-color: #444;
 }
 
 footer {
