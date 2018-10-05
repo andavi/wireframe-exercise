@@ -31,6 +31,11 @@ nav li {
   font-size: 18px;
 }
 
+nav a {
+  color: #999;
+  text-decoration: none;
+}
+
 main {
   width: 960px;
   margin: auto;
@@ -56,39 +61,38 @@ article img {
 }
 
 article div {
-  padding: 0 30px;
-  overflow: scroll;
+  padding-left: 30px;
+  display: inline-block;
+  width: 480px;
   height: 400px;
   box-sizing: border-box;
 }
 
 article div h2 {
   font-size: 125%;
-  margin-bottom: 12px;
+  margin-bottom: 7px;
 }
 
 article div p {
+  height: 336px;
   font-style: italic;
   line-height: 1.4em;
+  overflow: scroll;
 }
 
 article button {
-  /* width: 100%; */
-  /* position: fixed; */
-  /* display: block; */
-  /* margin-bottom: 0;
-  margin-left: 100; */
+  height: 30px;
+  width: 180px;
+  margin-top: 7px;
+  background-color: black;
+  color: #eee;
+  font-size: 100%;
 }
 
 footer {
   background-color: #444;
   width: 100%;
-  height: 96px;
-  padding: 13px;
-  box-sizing: border-box;
-}
-
-a {
-  color: #999;
-  text-decoration: none;
+  height: 109px;
+  /* padding: 13px; */
+  /* box-sizing: border-box; */
 }
